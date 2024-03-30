@@ -40,4 +40,7 @@
 .\objects\main.o: ..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
 .\objects\main.o: ..\User\systick.h
 .\objects\main.o: D:\apps\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: D:\apps\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: ..\BSP\bsp_debugUart.h
+.\objects\main.o: ..\BSP\bsp_flash.h
 .\objects\main.o: ..\User\main.h

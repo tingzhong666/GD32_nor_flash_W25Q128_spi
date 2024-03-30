@@ -39,3 +39,7 @@
 .\objects\systick.o: ..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
 .\objects\systick.o: ..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
 .\objects\systick.o: ..\User\systick.h
+.\objects\systick.o: D:\apps\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\systick.o: D:\apps\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\systick.o: ..\BSP\bsp_debugUart.h
+.\objects\systick.o: ..\BSP\bsp_flash.h

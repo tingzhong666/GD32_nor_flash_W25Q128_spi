@@ -55,7 +55,8 @@ void NMI_Handler(void)
 void HardFault_Handler(void)
 {
     /* if Hard Fault exception occurs, go to infinite loop */
-    while(1) {
+    while (1)
+    {
     }
 }
 
@@ -68,7 +69,8 @@ void HardFault_Handler(void)
 void MemManage_Handler(void)
 {
     /* if Memory Manage exception occurs, go to infinite loop */
-    while(1) {
+    while (1)
+    {
     }
 }
 
@@ -81,7 +83,8 @@ void MemManage_Handler(void)
 void BusFault_Handler(void)
 {
     /* if Bus Fault exception occurs, go to infinite loop */
-    while(1) {
+    while (1)
+    {
     }
 }
 
@@ -94,7 +97,8 @@ void BusFault_Handler(void)
 void UsageFault_Handler(void)
 {
     /* if Usage Fault exception occurs, go to infinite loop */
-    while(1) {
+    while (1)
+    {
     }
 }
 
@@ -137,4 +141,13 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
     delay_decrement();
+}
+
+void USART0_IRQHandler()
+{
+    if (usart_interrupt_flag_get(BSP_DEBUGUART_UART, USART_INT_FLAG_IDLE) == SET)
+    {
+        bsp_debugUart_RX_ISR();
+        usart_interrupt_flag_clear(BSP_DEBUGUART_UART, USART_INT_FLAG_IDLE);
+    }
 }

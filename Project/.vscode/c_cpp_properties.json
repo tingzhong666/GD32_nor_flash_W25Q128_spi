@@ -3,14 +3,16 @@
         {
             "name": "Target 1",
             "includePath": [
-                "d:\\development\\workspace_code\\GD32F4xx_Firmware_Library_V3.1.0\\项目模板_标准库_keil工程\\User",
-                "d:\\development\\workspace_code\\GD32F4xx_Firmware_Library_V3.1.0\\项目模板_标准库_keil工程\\Firmware\\CMSIS",
-                "d:\\development\\workspace_code\\GD32F4xx_Firmware_Library_V3.1.0\\项目模板_标准库_keil工程\\Firmware\\CMSIS\\GD\\GD32F4xx\\Include",
-                "d:\\development\\workspace_code\\GD32F4xx_Firmware_Library_V3.1.0\\项目模板_标准库_keil工程\\Firmware\\GD32F4xx_standard_peripheral\\Include",
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\User",
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\Firmware\\CMSIS",
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\Firmware\\CMSIS\\GD\\GD32F4xx\\Include",
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\Firmware\\GD32F4xx_standard_peripheral\\Include",
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\BSP",
                 "D:\\apps\\Keil_v5\\ARM\\ARMCC\\include",
                 "D:\\apps\\Keil_v5\\ARM\\ARMCC\\include\\rw",
-                "d:\\development\\workspace_code\\GD32F4xx_Firmware_Library_V3.1.0\\项目模板_标准库_keil工程\\Firmware\\CMSIS\\GD\\GD32F4xx\\Source",
-                "d:\\development\\workspace_code\\GD32F4xx_Firmware_Library_V3.1.0\\项目模板_标准库_keil工程\\Firmware\\CMSIS\\GD\\GD32F4xx\\Source\\ARM"
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\Firmware\\GD32F4xx_standard_peripheral\\Source",
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\Firmware\\CMSIS\\GD\\GD32F4xx\\Source",
+                "d:\\development\\workspace_code\\vscode.keil5\\GD32_eeprom_W25Q64\\Firmware\\CMSIS\\GD\\GD32F4xx\\Source\\ARM"
             ],
             "defines": [
                 "GD32F470",

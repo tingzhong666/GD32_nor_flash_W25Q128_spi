@@ -33,14 +33,23 @@ OF SUCH DAMAGE.
 */
 
 #include "gd32f4xx.h"
-#include "systick.h"
-#include <stdio.h>
 #include "main.h"
 
 int main(void)
 {
+    char flash_rec[128] = {0};
     systick_config();
+    nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
+    // BSP
+    bsp_debugUart_init();
+    bsp_flash_init();
 
-    while(1) {
+    printf("gd32 runing...\n");
+    printf("flash info: 0x%x\n", bsp_flash_deviceInfo());
+    bsp_flash_writeDatePage(0xf, "pass-test897", sizeof("pass-test897"));
+    bsp_flash_readDataByte(0xf, (uint8_t *)flash_rec, sizeof("pass-test897"));
+    printf("flash test: %s\n", flash_rec);
+    while (1)
+    {
     }
 }

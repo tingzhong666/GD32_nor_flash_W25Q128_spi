@@ -1,4 +1,12 @@
 --cpu=Cortex-M4.fp.sp
+".\objects\gd32f4xx_rcu.o"
+".\objects\gd32f4xx_usart.o"
+".\objects\gd32f4xx_gpio.o"
+".\objects\gd32f4xx_dma.o"
+".\objects\gd32f4xx_misc.o"
+".\objects\gd32f4xx_spi.o"
+".\objects\bsp_debuguart.o"
+".\objects\bsp_flash.o"
 ".\objects\gd32f4xx_it.o"
 ".\objects\main.o"
 ".\objects\systick.o"

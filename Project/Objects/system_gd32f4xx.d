@@ -38,3 +38,8 @@
 .\objects\system_gd32f4xx.o: ..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
 .\objects\system_gd32f4xx.o: ..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
 .\objects\system_gd32f4xx.o: ..\Firmware\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
+.\objects\system_gd32f4xx.o: ..\User\systick.h
+.\objects\system_gd32f4xx.o: D:\apps\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\system_gd32f4xx.o: D:\apps\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\system_gd32f4xx.o: ..\BSP\bsp_debugUart.h
+.\objects\system_gd32f4xx.o: ..\BSP\bsp_flash.h
